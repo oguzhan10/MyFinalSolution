@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -15,5 +16,9 @@ namespace Business.Constants
         public static string SameProductName = "Aynı isimden ürün eklenemez";
 
         public static string CateoryLimitExceeded = "Kategori limiti aşıldığı için yeni ürün eklenemiyor";
+
+        public static string AuthorizationDenied = "Yetkiniz yok";
+
+        public static string UserRegistered = "Kayıt oldu";
     }
 }
